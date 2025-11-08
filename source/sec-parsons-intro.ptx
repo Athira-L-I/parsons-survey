@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-parsons-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction to Parsons Problems</title>
+  
+  <introduction>
+    <p>
+      Welcome to the Parsons Problems practice session! In this section, you will get familiar with 
+      how Parsons Problems work before attempting the actual test problems.
+    </p>
+    <p>
+      A Parsons Problem presents you with all the lines of code needed to solve a programming task, 
+      but they are mixed up. Your job is to:
+    </p>
+    <p>
+      <ul>
+        <li>Drag the code blocks from the left side to the right side</li>
+        <li>Arrange them in the correct order</li>
+        <li>Set the proper indentation for each line</li>
+      </ul>
+    </p>
+    <p>
+      Let's start with a simple practice problem to get you comfortable with the interface.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-practice-1">
+    <title>Practice Problem 1: Simple Function</title>
+    
+    <p>
+      This is a simple warm-up problem. Try to arrange the code blocks in the correct order
+      to create a function that prints a greeting message.
+    </p>
+
+    <exercise label="parsons_practice_1" runestone="parsons">
+      <statement>
+        <p>
+          Arrange the following code blocks to create a function called <c>greet</c> that 
+          takes a name as a parameter and prints "Hello, [name]!"
+        </p>
+      </statement>
+      <blocks>
+        <block order="1">
+          <cline>def greet(name):</cline>
+        </block>
+        <block order="2">
+          <cline>    message = "Hello, " + name + "!"</cline>
+        </block>
+        <block order="3">
+          <cline>    print(message)</cline>
+        </block>
+      </blocks>
+    </exercise>
+
+    <p>
+      <alert>Tips for solving Parsons Problems:</alert>
+    </p>
+    <p>
+      <ul>
+        <li>Read the problem description carefully</li>
+        <li>Think about the logical flow of the program</li>
+        <li>Pay attention to indentation - it matters in Python!</li>
+        <li>Use the Check button to test your solution</li>
+        <li>Don't worry if you make mistakes - you can try again</li>
+      </ul>
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-practice-2">
+    <title>Practice Problem 2: Conditional Statement</title>
+    
+    <p>
+      Now let's try a slightly more complex problem that involves a conditional statement.
+    </p>
+
+    <exercise label="parsons_practice_2" runestone="parsons">
+      <statement>
+        <p>
+          Arrange the code blocks to create a function called <c>check_positive</c> that 
+          takes a number as a parameter and returns <c>True</c> if the number is positive, 
+          and <c>False</c> otherwise.
+        </p>
+      </statement>
+      <blocks>
+        <block order="1">
+          <cline>def check_positive(num):</cline>
+        </block>
+        <block order="2">
+          <cline>    if num > 0:</cline>
+        </block>
+        <block order="3">
+          <cline>        return True</cline>
+        </block>
+        <block order="4">
+          <cline>    else:</cline>
+        </block>
+        <block order="5">
+          <cline>        return False</cline>
+        </block>
+      </blocks>
+    </exercise>
+  </subsection>
+
+  <subsection xml:id="subsec-ready-check">
+    <title>Are You Ready?</title>
+    
+    <p>
+      Great work on the practice problems! You should now be familiar with:
+    </p>
+    <p>
+      <ul>
+        <li>How to drag and drop code blocks</li>
+        <li>How to arrange blocks in the correct order</li>
+        <li>How to set proper indentation</li>
+        <li>How to check your solution and interpret feedback</li>
+      </ul>
+    </p>
+
+    <exercise label="ready_check" runestone="multiplechoice">
+      <statement>
+        <p>Do you feel ready to proceed to the actual Parsons Problems test?</p>
+      </statement>
+      <choices>
+        <choice correct="yes">
+          <statement><p>Yes, I'm ready to start the test</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I need more practice (you can review the problems above)</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+
+    <p>
+      <alert>When you're ready, click the Next button to begin the test section.</alert>
+    </p>
+    <p>
+      Remember: In the test section, you will have three problems to solve. Take your time, 
+      read each problem carefully, and do your best!
+    </p>
+  </subsection>
+
+</section>
+

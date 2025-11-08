@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PreTeXt / build outputs / logs / generated assets
+output/
+generated-assets/
+logs/
+.ptx/
+.ptx-*
+*.log
+
+# editor/IDE files
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# secrets
+.env

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Student Quick Guide</title>
+  
+  <introduction>
+    <p>
+      <alert>Keep This Page Handy!</alert>
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-what-are-parsons">
+    <title>What are Parsons Problems?</title>
+    <p>
+      Parsons Problems give you mixed-up lines of code. Your job is to drag
+      them into the correct order and set proper indentation to make a working
+      program.
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-how-to-solve">
+    <title>How to Solve</title>
+    
+    <p><term>1. Read the Problem</term></p>
+    <p>
+      Understand what the function should do. Look at the example inputs and
+      outputs.
+    </p>
+
+    <p><term>2. Drag Lines to the Right</term></p>
+    <p>
+      Move code lines from the left side to the right side in the order you
+      think is correct.
+    </p>
+
+    <p><term>3. Set Indentation</term></p>
+    <p>
+      Some lines need to be indented. Use arrows to indent or unindent lines.
+    </p>
+
+    <p><term>4. Check Your Solution</term></p>
+    <p>
+      Click Check button to see if your solution is correct. You will get
+      feedback.
+    </p>
+
+    <p><term>5. Try Again if Wrong</term></p>
+    <p>
+      Read the feedback, make changes, and check again. Keep trying!
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-important-rules">
+    <title>Important Rules</title>
+
+    <p><term>Work Independently</term></p>
+    <p>
+      No help from friends, internet, or books. Do your best on your own.
+    </p>
+
+    <p><term>Complete All Three Problems</term></p>
+    <p>
+      Try your best on each problem. If you cannot solve it, mark Cannot solve
+      and move on.
+    </p>
+
+    <p><term>Take Your Time</term></p>
+    <p>
+      Think carefully. Each problem has a 10-minute time limit.
+    </p>
+
+    <p><term>Do Problems in Order</term></p>
+    <p>
+      Start with Problem 1, then 2, then 3. Do not skip ahead.
+    </p>
+
+    <p><term>Need Help?</term></p>
+    <p>
+      Raise your hand if you have questions about the interface. The
+      coordinator can help with technical issues but cannot help solve the
+      problems.
+    </p>
+
+    <p><alert>Good Luck!</alert></p>
+  </subsection>
+
+</section>

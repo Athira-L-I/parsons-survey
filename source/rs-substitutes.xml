@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Runestone substitutions file -->
+<!-- This file defines course-specific variables for Runestone -->
+<substitutions>
+  <!-- Course title -->
+  <title>Parsons Problems Research Study</title>
+  
+  <!-- Course institution -->
+  <institution>IIIT KOTTAYAM</institution>
+  
+  <!-- Runestone base URL - update this when you deploy -->
+  <runestone-host>runestone.academy</runestone-host>
+</substitutions>

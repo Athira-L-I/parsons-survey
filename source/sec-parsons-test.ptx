@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-parsons-test" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Parsons Problems Test</title>
+  
+  <introduction>
+    <p>
+      <alert>Test Section - Please Read Carefully</alert>
+    </p>
+    <p>
+      You will now complete three Parsons Problems. Please remember:
+    </p>
+    <p>
+      <ul>
+        <li>Work independently - no help from others or external resources</li>
+        <li>Complete all three problems in order</li>
+        <li>Take your time and think carefully</li>
+        <li>Each problem has a suggested 10-minute time limit</li>
+        <li>If you cannot solve a problem, do your best and move on</li>
+      </ul>
+    </p>
+    <p>
+      <alert>Good luck!</alert>
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-test-problem-1">
+    <title>Test Problem 1</title>
+    
+    <exercise label="parsons_test_1" runestone="parsons">
+      <statement>
+        <p>
+          Arrange the code blocks to create a function called <c>sum_list</c> that 
+          takes a list of numbers as a parameter and returns the sum of all numbers in the list.
+        </p>
+        <p>
+          Example: <c>sum_list([1, 2, 3, 4])</c> should return <c>10</c>
+        </p>
+      </statement>
+      <blocks>
+        <block order="1">
+          <cline>def sum_list(numbers):</cline>
+        </block>
+        <block order="2">
+          <cline>    total = 0</cline>
+        </block>
+        <block order="3">
+          <cline>    for num in numbers:</cline>
+        </block>
+        <block order="4">
+          <cline>        total = total + num</cline>
+        </block>
+        <block order="5">
+          <cline>    return total</cline>
+        </block>
+      </blocks>
+    </exercise>
+
+    <exercise label="test_1_confidence" runestone="multiplechoice">
+      <statement>
+        <p>How confident are you in your solution for Problem 1?</p>
+      </statement>
+      <choices>
+        <choice>
+          <statement><p>Very confident</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Somewhat confident</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Not very confident</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I could not solve this problem</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+  </subsection>
+
+  <subsection xml:id="subsec-test-problem-2">
+    <title>Test Problem 2</title>
+    
+    <exercise label="parsons_test_2" runestone="parsons">
+      <statement>
+        <p>
+          Arrange the code blocks to create a function called <c>count_vowels</c> that 
+          takes a string as a parameter and returns the number of vowels (a, e, i, o, u) 
+          in the string. Ignore case (treat 'A' and 'a' as the same).
+        </p>
+        <p>
+          Example: <c>count_vowels("Hello")</c> should return <c>2</c>
+        </p>
+      </statement>
+      <blocks>
+        <block order="1">
+          <cline>def count_vowels(text):</cline>
+        </block>
+        <block order="2">
+          <cline>    vowels = "aeiouAEIOU"</cline>
+        </block>
+        <block order="3">
+          <cline>    count = 0</cline>
+        </block>
+        <block order="4">
+          <cline>    for char in text:</cline>
+        </block>
+        <block order="5">
+          <cline>        if char in vowels:</cline>
+        </block>
+        <block order="6">
+          <cline>            count = count + 1</cline>
+        </block>
+        <block order="7">
+          <cline>    return count</cline>
+        </block>
+      </blocks>
+    </exercise>
+
+    <exercise label="test_2_confidence" runestone="multiplechoice">
+      <statement>
+        <p>How confident are you in your solution for Problem 2?</p>
+      </statement>
+      <choices>
+        <choice>
+          <statement><p>Very confident</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Somewhat confident</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Not very confident</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I could not solve this problem</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+  </subsection>
+
+  <subsection xml:id="subsec-test-problem-3">
+    <title>Test Problem 3</title>
+    
+    <exercise label="parsons_test_3" runestone="parsons">
+      <statement>
+        <p>
+          Arrange the code blocks to create a function called <c>find_max</c> that 
+          takes a list of numbers as a parameter and returns the largest number in the list.
+          You may assume the list is not empty.
+        </p>
+        <p>
+          Example: <c>find_max([3, 7, 2, 9, 4])</c> should return <c>9</c>
+        </p>
+      </statement>
+      <blocks>
+        <block order="1">
+          <cline>def find_max(numbers):</cline>
+        </block>
+        <block order="2">
+          <cline>    max_num = numbers[0]</cline>
+        </block>
+        <block order="3">
+          <cline>    for num in numbers:</cline>
+        </block>
+        <block order="4">
+          <cline>        if num > max_num:</cline>
+        </block>
+        <block order="5">
+          <cline>            max_num = num</cline>
+        </block>
+        <block order="6">
+          <cline>    return max_num</cline>
+        </block>
+      </blocks>
+    </exercise>
+
+    <exercise label="test_3_confidence" runestone="multiplechoice">
+      <statement>
+        <p>How confident are you in your solution for Problem 3?</p>
+      </statement>
+      <choices>
+        <choice>
+          <statement><p>Very confident</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Somewhat confident</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Not very confident</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I could not solve this problem</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+  </subsection>
+
+  <subsection xml:id="subsec-test-complete">
+    <title>Test Complete</title>
+    
+    <p>
+      <alert>Congratulations!</alert> You have completed all three Parsons Problems.
+    </p>
+    <p>
+      Please proceed to the feedback survey to share your experience.
+    </p>
+  </subsection>
+
+</section>
+

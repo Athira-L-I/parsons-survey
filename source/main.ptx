@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+  
+  <docinfo>
+    <macros>
+    </macros>
+    <latex-image-preamble>
+    </latex-image-preamble>
+  </docinfo>
+
+  <article xml:id="parsons-survey">
+    <title>Parsons Problems Research Study</title>
+    <subtitle>Programming Struggle Detection Survey</subtitle>
+
+    <frontmatter>
+      <titlepage>
+        <author>
+          <personname>Research Team</personname>
+        </author>
+        <date><today/></date>
+      </titlepage>
+
+      <abstract>
+        <p>
+          This interactive survey is designed to study how students approach and solve 
+          Parsons Problems, a type of programming exercise where code blocks must be 
+          arranged in the correct order. The study consists of a background questionnaire, 
+          practice problems, test problems, and a feedback survey.
+        </p>
+        <p>
+          <alert>Estimated Total Time:</alert> 20-25 minutes
+        </p>
+      </abstract>
+    </frontmatter>
+
+    <!-- Section 1: Introduction/Student Guide -->
+    <xi:include href="sec-intro.ptx"/>
+
+    <!-- Section 2: Background Questionnaire -->
+    <xi:include href="sec-questionnaire.ptx"/>
+
+    <!-- Section 3: Parsons Problems Familiarization -->
+    <xi:include href="sec-parsons-intro.ptx"/>
+
+    <!-- Section 4: Parsons Problems Test -->
+    <xi:include href="sec-parsons-test.ptx"/>
+
+    <!-- Section 5: Feedback Survey -->
+    <xi:include href="sec-feedback.ptx"/>
+
+    <backmatter>
+      <appendix xml:id="appendix-resources">
+        <title>Additional Resources</title>
+        <p>
+          For more information about Parsons Problems and programming education research, 
+          please contact the research team.
+        </p>
+      </appendix>
+    </backmatter>
+
+  </article>
+
+</pretext>
+

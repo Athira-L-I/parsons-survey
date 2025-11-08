@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-questionnaire" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Pre-Study Questionnaire</title>
+  
+  <introduction>
+    <p><em>Programming Struggle Detection Study</em></p>
+    <p>
+      <alert>Instructions:</alert> Please answer all questions honestly. This information
+      helps us understand your programming background. All responses are
+      confidential.
+    </p>
+    <p><alert>Estimated Time:</alert> 8 minutes</p>
+  </introduction>
+
+  <subsection xml:id="subsec-basic-info">
+    <title>Section A: Basic Information</title>
+    
+    <exercise label="student_id" runestone="shortanswer">
+      <statement>
+        <p>Student ID:</p>
+      </statement>
+    </exercise>
+
+    <exercise label="school_name" runestone="shortanswer">
+      <statement>
+        <p>School Name:</p>
+      </statement>
+    </exercise>
+
+    <exercise label="class_grade" runestone="shortanswer">
+      <statement>
+        <p>Class/Grade:</p>
+      </statement>
+    </exercise>
+
+    <exercise label="age" runestone="shortanswer">
+      <statement>
+        <p>Age:</p>
+      </statement>
+    </exercise>
+  </subsection>
+
+  <subsection xml:id="subsec-self-efficacy">
+    <title>Section B: Programming Self-Efficacy</title>
+    
+    <p><em>For each statement, indicate how much you agree or disagree:</em></p>
+
+    <exercise label="efficacy_1" runestone="multiplechoice">
+      <statement>
+        <p>
+          <alert>1.</alert> Generally I have felt secure about attempting computer programming
+          problems.
+        </p>
+      </statement>
+      <choices>
+        <choice>
+          <statement><p>Strongly disagree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Disagree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Neither agree nor disagree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Agree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Strongly agree</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+
+    <exercise label="efficacy_2" runestone="multiplechoice">
+      <statement>
+        <p><alert>2.</alert> I am sure I could do advanced work in computer science.</p>
+      </statement>
+      <choices>
+        <choice>
+          <statement><p>Strongly disagree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Disagree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Neither agree nor disagree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Agree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Strongly agree</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+
+    <exercise label="efficacy_3" runestone="multiplechoice">
+      <statement>
+        <p><alert>3.</alert> I am sure that I can learn programming.</p>
+      </statement>
+      <choices>
+        <choice>
+          <statement><p>Strongly disagree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Disagree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Neither agree nor disagree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Agree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Strongly agree</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+
+    <exercise label="efficacy_4" runestone="multiplechoice">
+      <statement>
+        <p><alert>4.</alert> I think I could handle more difficult programming problems.</p>
+      </statement>
+      <choices>
+        <choice>
+          <statement><p>Strongly disagree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Disagree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Neither agree nor disagree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Agree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Strongly agree</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+
+    <exercise label="efficacy_5" runestone="multiplechoice">
+      <statement>
+        <p><alert>5.</alert> I can get good grades in computer science.</p>
+      </statement>
+      <choices>
+        <choice>
+          <statement><p>Strongly disagree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Disagree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Neither agree nor disagree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Agree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Strongly agree</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+
+    <exercise label="efficacy_6" runestone="multiplechoice">
+      <statement>
+        <p><alert>6.</alert> I have a lot of self-confidence when it comes to programming.</p>
+      </statement>
+      <choices>
+        <choice>
+          <statement><p>Strongly disagree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Disagree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Neither agree nor disagree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Agree</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Strongly agree</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+  </subsection>
+
+  <subsection xml:id="subsec-concept-familiarity">
+    <title>Section C: Concept Familiarity</title>
+    
+    <p><em>For each programming concept, select your familiarity level:</em></p>
+
+    <exercise label="concept_loops" runestone="multiplechoice">
+      <statement>
+        <p><alert>7.</alert> Loops/Iteration (e.g., for loops, while loops)</p>
+      </statement>
+      <choices>
+        <choice>
+          <statement><p>I am unfamiliar with this concept</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I know what it means, but have not used it in a program</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I have used this concept, but am not confident about my ability</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I am confident in my ability to use this in simple programs</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I am confident in my ability to use this in complex programs</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+
+    <exercise label="concept_conditionals" runestone="multiplechoice">
+      <statement>
+        <p><alert>8.</alert> Conditionals/Selection Statements (e.g., if, elif, else)</p>
+      </statement>
+      <choices>
+        <choice>
+          <statement><p>I am unfamiliar with this concept</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I know what it means, but have not used it in a program</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I have used this concept, but am not confident about my ability</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I am confident in my ability to use this in simple programs</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I am confident in my ability to use this in complex programs</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+
+    <exercise label="concept_functions" runestone="multiplechoice">
+      <statement>
+        <p><alert>9.</alert> Functions (e.g., def function_name():)</p>
+      </statement>
+      <choices>
+        <choice>
+          <statement><p>I am unfamiliar with this concept</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I know what it means, but have not used it in a program</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I have used this concept, but am not confident about my ability</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I am confident in my ability to use this in simple programs</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I am confident in my ability to use this in complex programs</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+
+    <exercise label="concept_lists" runestone="multiplechoice">
+      <statement>
+        <p><alert>10.</alert> Lists/Arrays (e.g., my_list = [1, 2, 3])</p>
+      </statement>
+      <choices>
+        <choice>
+          <statement><p>I am unfamiliar with this concept</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I know what it means, but have not used it in a program</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I have used this concept, but am not confident about my ability</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I am confident in my ability to use this in simple programs</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I am confident in my ability to use this in complex programs</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+  </subsection>
+
+  <subsection xml:id="subsec-background">
+    <title>Section D: Programming Background</title>
+
+    <exercise label="experience_duration" runestone="multiplechoice">
+      <statement>
+        <p><alert>11.</alert> How long have you been learning programming?</p>
+      </statement>
+      <choices>
+        <choice>
+          <statement><p>Less than 6 months</p></statement>
+        </choice>
+        <choice>
+          <statement><p>6 months to 1 year</p></statement>
+        </choice>
+        <choice>
+          <statement><p>1 to 2 years</p></statement>
+        </choice>
+        <choice>
+          <statement><p>More than 2 years</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+
+    <exercise label="parsons_experience" runestone="multiplechoice">
+      <statement>
+        <p>
+          <alert>12.</alert> Have you worked with Parsons Problems before?
+        </p>
+        <p><em>(Parsons Problems: rearranging code lines to form correct programs)</em></p>
+      </statement>
+      <choices>
+        <choice>
+          <statement><p>Yes, many times</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Yes, a few times</p></statement>
+        </choice>
+        <choice>
+          <statement><p>No, this is my first time</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Not sure what Parsons Problems are</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+
+    <p><alert>Thank you! Please proceed to the tutorial.</alert></p>
+  </subsection>
+
+</section>
+
