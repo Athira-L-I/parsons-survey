@@ -10,6 +10,7 @@ __pycache__/
 
 # PreTeXt / build outputs / logs / generated assets
 output/
+published/
 generated-assets/
 logs/
 .ptx/
