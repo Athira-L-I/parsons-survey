@@ -10,8 +10,8 @@
     <target name="runestone">
       <format>html</format>
       <source>source/main.ptx</source>
-      <publication>publication/publication.ptx</publication>
-      <output-dir>published/parsons-survey</output-dir>
+      <publication>publication/runestone.ptx</publication>
+      <output-dir>published/parsonssurvey</output-dir>
       <stringparam key="html.platform.host" value="runestone"/>
     </target>
     <target name="print-pdf">

@@ -15,7 +15,7 @@
     <rename element="inlineexercise">Question</rename>
   </docinfo>
 
-  <article xml:id="parsons-survey">
+  <article xml:id="parsonssurvey">
     <title>Parsons Problems Research Study</title>
     <subtitle>Programming Struggle Detection Survey</subtitle>
 
